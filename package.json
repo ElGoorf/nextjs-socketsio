@@ -4,8 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "node server.js",
-    "build": "next dev"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "start-with-server": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
